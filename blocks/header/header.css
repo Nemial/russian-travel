@@ -3,5 +3,4 @@
   max-width: 1184px;
   display: grid;
   grid-template-columns: 1fr auto;
-  grid-template-rows: auto-fit;
 }
