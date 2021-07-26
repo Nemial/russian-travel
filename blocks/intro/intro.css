@@ -1,0 +1,10 @@
+.intro {
+  display: grid;
+  grid-template-columns: 0.6fr fit-content(690px) 1fr;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-areas:
+    ". intro__title ."
+    ". intro__text ."
+    ". intro__list .";
+  margin-top: 92px;
+}
