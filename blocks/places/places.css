@@ -5,3 +5,9 @@
   row-gap: 80px;
   grid-auto-rows: auto;
 }
+
+@media screen and (max-width: 1028px) {
+  .places {
+    margin: 92px 48px auto;
+  }
+}

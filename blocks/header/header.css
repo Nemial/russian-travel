@@ -1,6 +1,12 @@
 .header {
-  margin: 28px auto 56px;
+  margin: 28px 48px 56px;
   max-width: 1184px;
   display: grid;
   grid-template-columns: 1fr auto;
+}
+
+@media screen and (max-width: 1028px) {
+  .header {
+    margin-bottom: 48px;
+  }
 }
