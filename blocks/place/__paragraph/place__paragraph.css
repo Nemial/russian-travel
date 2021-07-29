@@ -1,6 +1,6 @@
 .place__paragraph {
   grid-area: place__paragraph;
-  margin: 0 0 26px;
+  margin: 0;
   color: #fff;
   font-size: 18px;
   line-height: 29.34px;

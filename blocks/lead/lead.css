@@ -18,3 +18,9 @@
     margin: 0 0 88px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .lead {
+    margin: 0 0 64px;
+  }
+}

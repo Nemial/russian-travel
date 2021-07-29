@@ -6,3 +6,10 @@
   flex-basis: 186px;
   text-align: end;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    flex-basis: 0;
+    line-height: 1;
+  }
+}

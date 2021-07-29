@@ -8,13 +8,21 @@
   margin-top: 92px;
 }
 
-@media screen and (max-width: 1028px) {
+@media screen and (max-width: 1028px) and (min-width: 769px) {
   .intro {
     grid-template-columns: 0.6fr fit-content(690px) 4fr;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .intro {
+    max-width: 720px;
+    grid-template-columns: fit-content(720px);
+    margin: 88px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .intro {
     max-width: 720px;
     grid-template-columns: fit-content(720px);
