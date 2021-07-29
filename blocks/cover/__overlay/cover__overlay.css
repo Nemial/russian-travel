@@ -10,3 +10,11 @@
 .cover__overlay:hover {
   opacity: 0.7;
 }
+
+.cover__title:hover ~ .cover__overlay {
+  opacity: 0.7;
+}
+
+.cover__subtitle:hover ~ .cover__overlay {
+  opacity: 0.7;
+}
