@@ -13,3 +13,11 @@
     grid-template-columns: 0.6fr fit-content(690px) 4fr;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    grid-template-columns: fit-content(720px);
+    margin: 88px auto 0;
+  }
+}

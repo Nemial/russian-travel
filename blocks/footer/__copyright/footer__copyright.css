@@ -3,4 +3,6 @@
   color: #fff;
   font-size: 14px;
   line-height: 16px;
+  flex-basis: 186px;
+  text-align: end;
 }
