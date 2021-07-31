@@ -1,4 +1,4 @@
-.footer_links {
+.footer__links {
   display: grid;
   grid-auto-flow: column;
   gap: 0 18px;
