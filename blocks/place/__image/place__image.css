@@ -3,15 +3,9 @@
   height: 100%;
 }
 
-@media screen and (max-width: 1000px) and (min-width: 321px) {
+@media screen and (max-width: 1000px) {
   .place__image {
     height: auto;
     object-fit: contain;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__image {
-    height: 320px;
   }
 }

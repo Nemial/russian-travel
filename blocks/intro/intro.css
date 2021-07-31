@@ -1,6 +1,6 @@
 .intro {
   margin-right: 290px;
-  width: 690px;
+  min-width: 690px;
 }
 
 @media screen and (max-width: 1075px) and (min-width: 768px) {
@@ -15,10 +15,16 @@
   }
 }
 
+@media screen and (max-width: 722px) {
+  .intro {
+    max-width: 690px;
+    min-width: 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .intro {
     max-width: 720px;
-    grid-template-columns: fit-content(720px);
-    margin: 88px auto 0;
+    margin: 0 16px;
   }
 }

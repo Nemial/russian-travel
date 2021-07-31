@@ -8,9 +8,9 @@
   text-align: end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .footer__copyright {
-    flex-basis: 0;
     line-height: 1;
+    flex-basis: 0;
   }
 }
