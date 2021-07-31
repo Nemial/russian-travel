@@ -1,7 +1,5 @@
-@media screen and (max-width: 320px) {
-  .footer__links {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 48px;
-  }
+.footer_links {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0 18px;
 }

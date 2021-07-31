@@ -1,9 +1,8 @@
 .places {
   margin-top: 92px;
   display: grid;
-  grid-template-columns: 1fr fit-content(984px) 1fr;
-  row-gap: 80px;
-  grid-auto-rows: auto;
+  grid-template-columns: 1fr minmax(min-content, 984px) 1fr;
+  gap: 80px 0;
 }
 
 @media screen and (max-width: 1028px) and (min-width: 769px) {

@@ -1,5 +1,6 @@
 @import url("../vendor/fonts.css");
 @import url("../blocks/page/page.css");
+@import url("../blocks/main/main.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__item/header__item.css");
@@ -32,6 +33,7 @@
 @import url("../blocks/cover/__overlay/cover__overlay.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 @import url("../blocks/cover/__title/cover__title.css");
+@import url("../blocks/cover/__link/cover__link.css");
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 @import url("../blocks/footer/__link/footer__link.css");
