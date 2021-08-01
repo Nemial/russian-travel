@@ -4,6 +4,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 26.08px;
+  grid-area: intro__text;
 }
 
 @media screen and (max-width: 320px) {
