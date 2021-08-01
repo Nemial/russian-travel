@@ -1,5 +1,5 @@
 .limiter {
-  margin: auto;
+  max-width: 986px;
 }
 
 @media screen and (max-width: 1248px) and (min-width: 769px) {
