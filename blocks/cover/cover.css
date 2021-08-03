@@ -3,7 +3,7 @@
   background-position: center;
   background-size: cover;
   margin-top: 92px;
-  padding: calc((740px - 250px) / 2) 0;
+  padding: calc((990px - 250px) / 2) 0;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -31,24 +31,24 @@
 
 @media screen and (max-width: 1184px) and (min-width: 769px) {
   .cover {
-    padding: calc((640px - 250px) / 2) 0;
+    padding: calc((890px - 250px) / 2) 0;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 521px) {
   .cover {
-    padding: calc((480px - 250px) / 2) 0;
+    padding: calc((730px - 250px) / 2) 0;
   }
 }
 
-@media screen and (max-width: 520px) and (min-width: 321px) {
+@media screen and (max-width: 520px) {
   .cover {
-    padding: calc((98vw - 250px) / 2) 0;
+    padding: calc(200px / 2) 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    padding: calc((79vw - 250px) / 2) 0;
+    margin-top: 66px;
   }
 }

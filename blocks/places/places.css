@@ -21,6 +21,6 @@
   .places {
     grid-template-columns: 1fr;
     margin-top: 64px;
-    gap: 40px 0;
+    gap: 50px 0;
   }
 }
