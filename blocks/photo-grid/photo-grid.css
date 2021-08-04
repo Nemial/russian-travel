@@ -1,9 +1,15 @@
 .photo-grid {
   margin: 92px 48px 0;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 284px);
   gap: 16px;
   max-width: 1184px;
+}
+
+@media screen and (max-width: 1220px) and (min-width: 1029px) {
+  .photo-grid {
+    grid-template-columns: repeat(4, auto);
+  }
 }
 
 @media screen and (max-width: 1028px) and (min-width: 769px) {
