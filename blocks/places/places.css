@@ -5,13 +5,13 @@
   gap: 80px 0;
 }
 
-@media screen and (max-width: 1028px) and (min-width: 769px) {
+@media screen and (max-width: 1028px) and (min-width: 951px) {
   .places {
     margin: 92px 48px auto;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 721px) {
+@media screen and (max-width: 950px) and (min-width: 721px) {
   .places {
     margin: 88px 24px auto;
   }
